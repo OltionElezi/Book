@@ -1,0 +1,134 @@
+body{
+  background-color: #A27B5C;
+  text-align: center;
+}
+img{
+  border-radius: 10%;
+}
+h1 {
+  text-align: left;
+  font-family: 'Montserrat, sans-serif';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #DCD7C9;
+}
+h5{
+  font-weight: bold;
+}
+h3{
+  font-weight: bold;
+  color: #DCD7C9;
+}
+p{
+  color: #DCD7C9;
+}
+
+/* Pjesa e navbarit >top*/
+
+.container-fluid{
+  padding: 3% 15%;
+}
+/*image >top*/
+.top-img{
+  width: 27%;
+  transform: rotate(10deg);
+  position: absolute;
+  bottom: 1rem;
+}
+/* navbar-brand >top */
+.navbar-brand{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #DCD7C9;
+}
+
+.nav-link{
+  font-size: 1rem;
+  color: #DCD7C9;
+}
+
+/* 2 download btn >top */
+.download-btn{
+  margin: 3% 2% 3% 2%;
+}
+
+/* feature */
+
+#features{
+  background-color: #3F4E4F;
+  padding:8% 10%;
+  position: relative;
+  z-index: 1;
+}
+
+.fa-solid{
+  color: #B09B71;
+  margin-bottom: 1rem
+}
+
+.fa-solid:hover{
+  color:#A27B5C;
+}
+
+/* Testimonials */
+#testimonials{
+  color: #EDDFB3;
+}
+.gates-reading{
+  width:40%;
+}
+.AlbertoM{
+  width:22.4%;
+}
+.rowling{
+  width:20.30%;
+}
+
+.testimonial-text{
+  padding-bottom:10%;
+}
+#carouselbootstrap{
+  padding:7% 15%;
+}
+
+/* Press */
+
+#press{
+  background-color:#87805E;
+  padding-bottom: 3%;
+}
+
+/* Pricing */
+#pricing{
+  background-color: #3F4E4F;
+}
+
+#card3{
+  padding: 5% 15%;
+  margin: 0;
+}
+
+.card-body{
+  background-color: #A27B5C;
+}
+
+
+/* Footer */
+
+#footer{
+  background-color: #A27B5C;
+}
+
+.icon4{
+  padding: 1%;
+}
+
+/* responsive for phone */
+@media(max-width: 991px){
+ .top-img{
+   width: 50%;
+   position: static;
+   transform: rotate(0);
+ }
+}
